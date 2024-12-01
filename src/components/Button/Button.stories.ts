@@ -1,4 +1,4 @@
-import { FisButton } from "./index";
+import FisButton from ".";
 
 export default {
   title: "MyComponents/Button",

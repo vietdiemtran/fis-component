@@ -14,11 +14,12 @@
     "dev": "rollup -c -w",
     "test": "jest",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build -o ./docs",
+    "build-storybook": "storybook build",
     "prepare": "husky",
     "lint": "eslint ./src/ --ext .ts,.tsx",
     "lint:fix": "eslint ./src --ext .ts,.tsx --fix",
-    "release": "standard-version"
+    "release": "standard-version",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "peerDependencies": {
     "react": "^18.0.0"

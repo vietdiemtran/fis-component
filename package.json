@@ -18,9 +18,7 @@
     "prepare": "husky",
     "lint": "eslint ./src/ --ext .ts,.tsx",
     "lint:fix": "eslint ./src --ext .ts,.tsx --fix",
-    "release": "standard-version",
-    "predeploy": "npm run build-storybook",
-    "deploy": "gh-pages -d docs"
+    "release": "standard-version"
   },
   "peerDependencies": {
     "react": "^18.0.0"

@@ -1,4 +1,4 @@
-import{j as o}from"./jsx-runtime-50395f49.js";import{d as i,l as a}from"./styled-components.browser.esm-6b0ce59b.js";import{g as e}from"./getTheme-fd88fed7.js";const g=i.div`
+import{j as o}from"./jsx-runtime-50395f49.js";import{d as i,l as a}from"./styled-components.browser.esm-6b0ce59b.js";import{g as e}from"./getTheme-fd88fed7.js";const v=i.div`
   position: relative;
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@ import{j as o}from"./jsx-runtime-50395f49.js";import{d as i,l as a}from"./styled
         `;case"square":return a`
           border-radius: ${e("com/avatar/size-xl/corner-radius")};
         `}}};
-`,v=i.img`
+`,$=i.img`
   object-fit: cover;
   display: flex;
   align-items: center;
@@ -120,7 +120,7 @@ import{j as o}from"./jsx-runtime-50395f49.js";import{d as i,l as a}from"./styled
         `;case"square":return a`
           border-radius: ${e("com/avatar/size-xl/corner-radius")};
         `}}}
-`,$=i.div`
+`,x=i.div`
   object-fit: cover;
   display: flex;
   align-items: center;
@@ -151,7 +151,7 @@ import{j as o}from"./jsx-runtime-50395f49.js";import{d as i,l as a}from"./styled
         `;case"square":return a`
           border-radius: ${e("com/avatar/size-xl/corner-radius")};
         `}}}
-`,x=i.span`
+`,b=i.span`
   object-fit: cover;
   display: flex;
   align-items: center;
@@ -216,7 +216,7 @@ import{j as o}from"./jsx-runtime-50395f49.js";import{d as i,l as a}from"./styled
         `;case"square":return a`
           border-radius: ${e("com/avatar/size-xl/corner-radius")};
         `}}}
-`,b=i.div`
+`,p=i.div`
   position: absolute;
   bottom: -2px;
   right: -2px;
@@ -278,4 +278,4 @@ import{j as o}from"./jsx-runtime-50395f49.js";import{d as i,l as a}from"./styled
         `;case"neutral":return a`
           background-color: ${e("com/avatar/status-badge/theme/neutral")};
         `}}}
-`,p=({className:t,src:n,alt:d="Avatar",badge:s="rounded",size:r="xl",icon:l,status:h="green",color:m="neutral",letter:c,isBadgeDot:u=!0})=>o.jsxs(g,{className:t,$size:r,$badge:s,$color:m,children:[n?o.jsx(v,{$size:r,$badge:s,src:n,alt:d}):l?o.jsx($,{$size:r,$badge:s,children:l}):o.jsx(x,{$size:r,$badge:s,$color:m,children:c==null?void 0:c.slice(0,2)}),u&&o.jsx(b,{$size:r,$status:h})]}),f=p;try{Avatar.displayName="Avatar",Avatar.__docgenInfo={description:"",displayName:"Avatar",props:{className:{defaultValue:null,description:"",name:"className",required:!1,type:{name:"string"}},src:{defaultValue:null,description:"",name:"src",required:!1,type:{name:"string"}},icon:{defaultValue:null,description:"",name:"icon",required:!1,type:{name:"ReactNode"}},alt:{defaultValue:{value:"Avatar"},description:"",name:"alt",required:!1,type:{name:"string"}},letter:{defaultValue:null,description:"",name:"letter",required:!1,type:{name:"string"}},size:{defaultValue:{value:"xl"},description:"",name:"size",required:!1,type:{name:"enum",value:[{value:'"2xs"'},{value:'"xs"'},{value:'"sm"'},{value:'"md"'},{value:'"lg"'},{value:'"xl"'}]}},status:{defaultValue:{value:"green"},description:"",name:"status",required:!1,type:{name:"enum",value:[{value:'"green"'},{value:'"red"'},{value:'"yellow"'},{value:'"blue"'},{value:'"neutral"'}]}},isBadgeDot:{defaultValue:{value:"true"},description:"",name:"isBadgeDot",required:!1,type:{name:"boolean"}},badge:{defaultValue:{value:"rounded"},description:"",name:"badge",required:!1,type:{name:"enum",value:[{value:'"rounded"'},{value:'"square"'},{value:'"without"'}]}},color:{defaultValue:{value:"neutral"},description:"",name:"color",required:!1,type:{name:"enum",value:[{value:'"green"'},{value:'"yellow"'},{value:'"blue"'},{value:'"neutral"'},{value:'"orange"'},{value:'"lime"'},{value:'"ocean"'},{value:'"indigo"'},{value:'"violet"'},{value:'"pink"'},{value:'"disable"'}]}}}}}catch{}export{f as F};
+`,c=({className:t,src:l,alt:h="Avatar",badge:s="rounded",size:r="xl",icon:m,status:u="green",color:d="neutral",letter:n,isBadgeDot:g=!0})=>o.jsxs(v,{className:t,$size:r,$badge:s,$color:d,children:[l?o.jsx($,{$size:r,$badge:s,src:l,alt:h}):m?o.jsx(x,{$size:r,$badge:s,children:m}):o.jsx(b,{$size:r,$badge:s,$color:d,children:n==null?void 0:n.slice(0,2)}),g&&o.jsx(p,{$size:r,$status:u})]});c.displayName="FISAvatar";const f=c;try{c.displayName="FISAvatar",c.__docgenInfo={description:"",displayName:"FISAvatar",props:{className:{defaultValue:null,description:"",name:"className",required:!1,type:{name:"string"}},src:{defaultValue:null,description:"",name:"src",required:!1,type:{name:"string"}},icon:{defaultValue:null,description:"",name:"icon",required:!1,type:{name:"ReactNode"}},alt:{defaultValue:{value:"Avatar"},description:"",name:"alt",required:!1,type:{name:"string"}},letter:{defaultValue:null,description:"",name:"letter",required:!1,type:{name:"string"}},size:{defaultValue:{value:"xl"},description:"",name:"size",required:!1,type:{name:"enum",value:[{value:'"sm"'},{value:'"md"'},{value:'"2xs"'},{value:'"xs"'},{value:'"lg"'},{value:'"xl"'}]}},status:{defaultValue:{value:"green"},description:"",name:"status",required:!1,type:{name:"enum",value:[{value:'"green"'},{value:'"red"'},{value:'"yellow"'},{value:'"blue"'},{value:'"neutral"'}]}},isBadgeDot:{defaultValue:{value:"true"},description:"",name:"isBadgeDot",required:!1,type:{name:"boolean"}},badge:{defaultValue:{value:"rounded"},description:"",name:"badge",required:!1,type:{name:"enum",value:[{value:'"rounded"'},{value:'"square"'},{value:'"without"'}]}},color:{defaultValue:{value:"neutral"},description:"",name:"color",required:!1,type:{name:"enum",value:[{value:'"green"'},{value:'"yellow"'},{value:'"blue"'},{value:'"neutral"'},{value:'"orange"'},{value:'"lime"'},{value:'"ocean"'},{value:'"indigo"'},{value:'"violet"'},{value:'"pink"'},{value:'"disable"'}]}}}}}catch{}export{f as F};

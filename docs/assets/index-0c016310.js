@@ -1,4 +1,4 @@
-import{j as i}from"./jsx-runtime-50395f49.js";import{r as N,R as r}from"./index-9fa1aa67.js";import{g as e}from"./getTheme-fd88fed7.js";import{c as p}from"./index-668664f1.js";import{d as a}from"./styled-components.browser.esm-6b0ce59b.js";import{F as oe}from"./index-b3650d7f.js";import{e as ae}from"./ResizeIcon-0deac5ef.js";import{F as le}from"./index-23d27f21.js";const re=a.div`
+import{j as i}from"./jsx-runtime-50395f49.js";import{r as N,R as r}from"./index-9fa1aa67.js";import{g as e}from"./getTheme-fd88fed7.js";import{c as p}from"./index-668664f1.js";import{d as a}from"./styled-components.browser.esm-6b0ce59b.js";import{F as oe}from"./index-c7f33007.js";import{e as ae}from"./ResizeIcon-0deac5ef.js";import{F as le}from"./index-1fb00d0c.js";const re=a.div`
   display: flex;
   flex-direction: column;
   gap: ${e("sem/dimension/gap/xs")};

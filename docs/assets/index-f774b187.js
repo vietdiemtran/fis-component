@@ -1,4 +1,4 @@
-import{j as o}from"./jsx-runtime-50395f49.js";import{r as g,R as m}from"./index-9fa1aa67.js";import{d,l as x}from"./styled-components.browser.esm-6b0ce59b.js";import{g as r}from"./getTheme-fd88fed7.js";import{S as n,D as $}from"./ResizeIcon-0deac5ef.js";import{F as h}from"./index-b3650d7f.js";const v=d.div`
+import{j as o}from"./jsx-runtime-50395f49.js";import{r as g,R as m}from"./index-9fa1aa67.js";import{d,l as x}from"./styled-components.browser.esm-6b0ce59b.js";import{g as r}from"./getTheme-fd88fed7.js";import{S as n,D as $}from"./ResizeIcon-0deac5ef.js";import{F as h}from"./index-c7f33007.js";const v=d.div`
   display: flex;
   align-items: center;
 `,p=d.div`

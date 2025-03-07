@@ -1,4 +1,4 @@
-import{j as t}from"./jsx-runtime-50395f49.js";import{r as V}from"./index-9fa1aa67.js";import{c as r}from"./index-668664f1.js";import{d as c}from"./styled-components.browser.esm-6b0ce59b.js";import{g as e}from"./getTheme-fd88fed7.js";import{F as q}from"./index-45fd36eb.js";import{b as F,d as _}from"./ResizeIcon-0deac5ef.js";import{F as D}from"./index-d99fcaf4.js";const d=c.input`
+import{j as t}from"./jsx-runtime-50395f49.js";import{r as V}from"./index-9fa1aa67.js";import{c as r}from"./index-668664f1.js";import{d as c}from"./styled-components.browser.esm-6b0ce59b.js";import{g as e}from"./getTheme-fd88fed7.js";import{F as q}from"./index-b3650d7f.js";import{b as F,d as _}from"./ResizeIcon-0deac5ef.js";import{F as D}from"./index-23d27f21.js";const d=c.input`
   all: unset;
   text-align: center;
   caret-color: ${e("com/typing-cursor/default")};

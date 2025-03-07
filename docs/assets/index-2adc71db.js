@@ -1,13 +1,13 @@
-import{j as o}from"./jsx-runtime-50395f49.js";import{r as p,R as i}from"./index-9fa1aa67.js";import{d,l as g}from"./styled-components.browser.esm-6b0ce59b.js";import{g as r}from"./getTheme-fd88fed7.js";import{S as n,D as x}from"./ResizeIcon-0deac5ef.js";import{F as $}from"./index-45fd36eb.js";const h=d.div`
+import{j as o}from"./jsx-runtime-50395f49.js";import{r as g,R as m}from"./index-9fa1aa67.js";import{d,l as x}from"./styled-components.browser.esm-6b0ce59b.js";import{g as r}from"./getTheme-fd88fed7.js";import{S as n,D as $}from"./ResizeIcon-0deac5ef.js";import{F as h}from"./index-b3650d7f.js";const v=d.div`
   display: flex;
   align-items: center;
-`,u=d.div`
+`,p=d.div`
   display: flex;
   align-items: center;
 `,b=d.span`
   ${r("Label/XS")};
   color: ${r("com/breadcrumbs/module/non-current/label/color-text/default")};
-`,v=d.button`
+`,f=d.button`
   all: unset;
   display: flex;
   align-items: center;
@@ -28,12 +28,12 @@ import{j as o}from"./jsx-runtime-50395f49.js";import{r as p,R as i}from"./index-
       color: ${r("com/breadcrumbs/module/non-current/label/color-text/hover")};
     }
 
-    ${u} {
+    ${p} {
       color: ${r("com/breadcrumbs/module/non-current/icon/color-icon/hover")};
     }
   }
 
-  ${e=>e.$active&&g`
+  ${e=>e.$active&&x`
       background-color: ${r("sem/color/background/neutral/canvas/active")};
       outline: ${r("com/actived-mark/gap-spacing")} solid
         ${r("com/actived-mark/color-gap-spacing")};
@@ -42,7 +42,7 @@ import{j as o}from"./jsx-runtime-50395f49.js";import{r as p,R as i}from"./index-
         color: ${r("com/breadcrumbs/module/non-current/label/color-text/active")};
       }
 
-      ${u} {
+      ${p} {
         color: ${r("com/breadcrumbs/module/non-current/icon/color-icon/active")};
       }
     `}
@@ -53,7 +53,7 @@ import{j as o}from"./jsx-runtime-50395f49.js";import{r as p,R as i}from"./index-
         ${r("com/focus-mark/color-gap-spacing")},
       0 0 0 4px ${r("com/focus-mark/color-stroke")};
   }
-`,f=d.div`
+`,j=d.div`
   display: flex;
   align-items: center;
   justify-items: center;
@@ -63,4 +63,4 @@ import{j as o}from"./jsx-runtime-50395f49.js";import{r as p,R as i}from"./index-
   padding-left: ${r("com/breadcrumbs/module/horizontal-padding")};
   gap: ${r("com/breadcrumbs/module/horizontal-gap")};
   border-radius: ${r("com/breadcrumbs/module/corner-radius")};
-`,j=4,m=p.forwardRef(({label:e,icon:l,active:s,onClick:t,...a},c)=>o.jsxs(v,{...a,ref:c,onClick:t,$active:s,children:[l&&o.jsx(u,{children:l}),e&&o.jsx(b,{children:e})]})),S=()=>o.jsxs(o.Fragment,{children:[o.jsx(f,{children:o.jsx(x,{})}),o.jsx(n,{})]}),k=({items:e,className:l})=>{var s,t;return e.length===0?null:o.jsxs(h,{className:l,children:[((s=e==null?void 0:e[0])==null?void 0:s.icon)&&o.jsxs(o.Fragment,{children:[o.jsx($,{size:"xs",icon:(t=e==null?void 0:e[0])==null?void 0:t.icon,variant:"tertiary-invisible",onClick:e[0].onClick}),o.jsx(n,{})]}),e.length>j?o.jsxs(o.Fragment,{children:[e.slice(1,2).map((a,c)=>o.jsxs(i.Fragment,{children:[o.jsx(m,{...a}),o.jsx(n,{})]},c)),o.jsx(S,{}),e.slice(-2).map((a,c)=>o.jsxs(i.Fragment,{children:[o.jsx(m,{...a}),o.jsx(n,{})]},`end-${c}`))]}):o.jsx(o.Fragment,{children:e.slice(1).map((a,c)=>o.jsxs(i.Fragment,{children:[o.jsx(m,{...a}),o.jsx(n,{})]},c))})]})},z=k;try{Breadcrumb.displayName="Breadcrumb",Breadcrumb.__docgenInfo={description:"",displayName:"Breadcrumb",props:{items:{defaultValue:null,description:"",name:"items",required:!0,type:{name:"BreadcrumbItemProps[]"}},className:{defaultValue:null,description:"Additional CSS class names to apply to the breadcrumb.",name:"className",required:!1,type:{name:"string"}}}}}catch{}export{z as F};
+`,S=4,u=g.forwardRef(({label:e,icon:l,active:s,onClick:t,...a},c)=>o.jsxs(f,{...a,ref:c,onClick:t,$active:s,children:[l&&o.jsx(p,{children:l}),e&&o.jsx(b,{children:e})]})),I=()=>o.jsxs(o.Fragment,{children:[o.jsx(j,{children:o.jsx($,{})}),o.jsx(n,{})]}),i=({items:e,className:l})=>{var s,t;return e.length===0?null:o.jsxs(v,{className:l,children:[((s=e==null?void 0:e[0])==null?void 0:s.icon)&&o.jsxs(o.Fragment,{children:[o.jsx(h,{size:"xs",icon:(t=e==null?void 0:e[0])==null?void 0:t.icon,variant:"tertiary-invisible",onClick:e[0].onClick}),o.jsx(n,{})]}),e.length>S?o.jsxs(o.Fragment,{children:[e.slice(1,2).map((a,c)=>o.jsxs(m.Fragment,{children:[o.jsx(u,{...a}),o.jsx(n,{})]},c)),o.jsx(I,{}),e.slice(-2).map((a,c)=>o.jsxs(m.Fragment,{children:[o.jsx(u,{...a}),o.jsx(n,{})]},`end-${c}`))]}):o.jsx(o.Fragment,{children:e.slice(1).map((a,c)=>o.jsxs(m.Fragment,{children:[o.jsx(u,{...a}),o.jsx(n,{})]},c))})]})};i.displayName="FISBreadcrumb";const z=i;try{i.displayName="FISBreadcrumb",i.__docgenInfo={description:"",displayName:"FISBreadcrumb",props:{items:{defaultValue:null,description:"",name:"items",required:!0,type:{name:"BreadcrumbItemProps[]"}},className:{defaultValue:null,description:"Additional CSS class names to apply to the breadcrumb.",name:"className",required:!1,type:{name:"string"}}}}}catch{}export{z as F};

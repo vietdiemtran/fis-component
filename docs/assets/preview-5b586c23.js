@@ -1,1 +1,0 @@
-import{j as r}from"./jsx-runtime-47c18db8.js";import{F as e}from"./index-6fac917d.js";import"./index-d806aa85.js";import"./styled-components.browser.esm-c9db8114.js";const m={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}}},decorators:[o=>r.jsx(e,{children:r.jsx(o,{})})]};export{m as default};

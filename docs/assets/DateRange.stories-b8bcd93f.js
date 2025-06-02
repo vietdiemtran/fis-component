@@ -1,7 +1,0 @@
-import{j as e}from"./jsx-runtime-47c18db8.js";import{F as a}from"./index-1c257da6.js";import"./index-d806aa85.js";import"./index-29f02deb.js";import"./index-e72c950e.js";import"./getTheme-624682de.js";import"./index-8298a7d1.js";import"./ArrowRightIcon-2d46fdf7.js";import"./index-70c9a0e9.js";import"./AntdIcon-b5d0c52f.js";import"./index-d16835b1.js";import"./index-35a52d1c.js";import"./UnstableContext-a2e933a8.js";import"./roundedArrow-b20e57e4.js";import"./useSize-ee7d4598.js";import"./button-1608bba2.js";import"./useMergedState-1b150724.js";import"./useCSSVarCls-b4f81dac.js";import"./pickAttrs-551e8cfe.js";const P={title:"Components/Input/DateRange",component:a,tags:["autodocs"],args:{label:"Date pick",required:!0,message:"Placeholder of hint text to help",negative:!1,positive:!1},argTypes:{label:{control:"text",description:"Label of input"},required:{control:"boolean",description:"Required input"},message:{control:"text",description:"Message"},negative:{control:"boolean",description:"Negative variant"},positive:{control:"boolean",description:"Positive variant"}}},n=s=>e.jsx("div",{style:{width:"400px"},children:e.jsx(a,{...s})}),t=n.bind({});var o,r,i;t.parameters={...t.parameters,docs:{...(o=t.parameters)==null?void 0:o.docs,source:{originalSource:`(args: DateRangeProps) => {
-  return <div style={{
-    width: "400px"
-  }}>
-      <FISDateRange {...args} />
-    </div>;
-}`,...(i=(r=t.parameters)==null?void 0:r.docs)==null?void 0:i.source}}};const S=["Default"];export{t as Default,S as __namedExportsOrder,P as default};

@@ -1,1 +1,0 @@
-import{j as o}from"./jsx-runtime-47c18db8.js";const e=()=>o.jsx("svg",{width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:o.jsx("path",{d:"M8.6665 14.0001L11.9998 17.3334L15.3332 14.0001M8.6665 10.0001L11.9998 6.66675L15.3332 10.0001",stroke:"currentColor",strokeLinecap:"round",strokeLinejoin:"round"})});export{e as C};

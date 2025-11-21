@@ -1,0 +1,1 @@
+import{R as o}from"./index-981f9478.js";import{N as i}from"./context-0e70691a.js";const n=()=>{const t=o.useContext(i);if(!t)throw new Error("useNotification must be used within a NotificationProvider");return t};export{n as u};
